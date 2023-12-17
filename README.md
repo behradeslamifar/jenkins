@@ -1,43 +1,48 @@
 # jenkins
 
 ### LPI DevOps Tools Engineer - Objective V1
+---
 
 <details><summary>Continuous Integration and Continuous Delivery</summary>
 <p>
+
 Find complete DevOps Tools Engineer Objectives [here](https://wiki.lpi.org/wiki/DevOps_Tools_Engineer_Objectives_V1)
 
 Candidates should understand the principles and components of a continuous integration and continuous delivery pipeline. Candidates should be able to implement a CI/CD pipeline using Jenkins, including triggering the CI/CD pipeline, running unit, integration and acceptance tests, packaging software and handling the deployment of tested software artifacts. This objective covers the feature set of Jenkins version 2.0 or later.
 
 Key Knowledge Areas:
 
-Understand the concepts of Continuous Integration and Continuous Delivery
-Understand the components of a CI/CD pipeline, including builds, unit, integration and acceptance tests, artifact management, delivery and deployment
-Understand deployment best practices
-Understand the architecture and features of Jenkins, including Jenkins Plugins, Jenkins API, notifications and distributed builds
-Define and run jobs in Jenkins, including parameter handling
-Fingerprinting, artifacts and artifact repositories
-Understand how Jenkins models continuous delivery pipelines and implement a declarative continuous delivery pipeline in Jenkins
-Awareness of possible authentication and authorization models
-Understanding of the Pipeline Plugin
-Understand the features of important Jenkins modules such as Copy Artifact Plugin, Fingerprint Plugin, Docker Pipeline, Docker Build and Publish plugin, Git Plugin, Credentials Plugin
-Awareness of Artifactory and Nexus
-The following is a partial list of the used files, terms and utilities:
+- Understand the concepts of Continuous Integration and Continuous Delivery
+- Understand the components of a CI/CD pipeline, including builds, unit, integration and acceptance tests, artifact management, delivery and deployment
+- Understand deployment best practices
+- Understand the architecture and features of Jenkins, including Jenkins Plugins, Jenkins API, notifications and distributed builds
+- Define and run jobs in Jenkins, including parameter handling
+- Fingerprinting, artifacts and artifact repositories
+- Understand how Jenkins models continuous delivery pipelines and implement a declarative continuous delivery pipeline in Jenkins
+- Awareness of possible authentication and authorization models
+- Understanding of the Pipeline Plugin
+- Understand the features of important Jenkins modules such as Copy Artifact Plugin, Fingerprint Plugin, Docker Pipeline, Docker Build and Publish plugin, Git Plugin, Credentials Plugin
+- Awareness of Artifactory and Nexus
 
-Step, Node, Stage
-Jenkins DSL
-Jenkinsfile
-Declarative Pipeline
-Blue-green and canary deployment
+The following is a partial list of the used files, terms and utilities:
+- Step, Node, Stage
+- Jenkins DSL
+- Jenkinsfile
+- Declarative Pipeline
+- Blue-green and canary deployment
 
 </p>
 </details>
 
 
 ### CloudBees Jenkins Training and Certification
+---
+
 [Jenkins Training and Certification](https://www.cloudbees.com/cloudbees-university/training-certifications/jenkin) in CloudBees website.
 
 <details><summary>Jenkins: Essentials</summary>
 <p>
+
 - Describe the concepts of continuous integration, continuous delivery, and continuous deployment.
 - Define how Jenkins interacts with Source Code Management (SCM) systems.
 - Describe the role of testing and how to implement effective testing.
@@ -88,6 +93,9 @@ Blue-green and canary deployment
 </p>
 </details>
 
+
+### Groovy
+---
 
 <details><summary>Groovy</summary>
 <p>
