@@ -1,7 +1,6 @@
 # jenkins
 
 ### LPI DevOps Tools Engineer - Objective V1
----
 
 <details><summary>Continuous Integration and Continuous Delivery</summary>
 <p>
@@ -36,7 +35,6 @@ The following is a partial list of the used files, terms and utilities:
 
 
 ### CloudBees Jenkins Training and Certification
----
 
 [Jenkins Training and Certification](https://www.cloudbees.com/cloudbees-university/training-certifications/jenkin) in CloudBees website.
 
@@ -95,7 +93,6 @@ The following is a partial list of the used files, terms and utilities:
 
 
 ### Groovy
----
 
 <details><summary>Groovy</summary>
 <p>
