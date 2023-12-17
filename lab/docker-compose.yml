@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  jenkins:
+    image: jenkins/jenkins:lts-jdk17
+    restart: always
+    ports: 
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins-data:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+
+  jenkins-agent:
+    image: jenkins/inbound-agent:latest-alpine-jdk17
+    restart: always
+    init:  true
+    command: "-url http://192.168.88.2:8080 4f1aed27ff2f38ec444acec96b2dcdd8dc7b48dc8239e9ee7ef2cd5b31f729bc agent1"
+    volumes:
+      - jenkins-agent-1:/home/jenkins/agent
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+
+volumes:
+  jenkins-data:
+  jenkins-agent-1:
