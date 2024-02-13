@@ -1,5 +1,8 @@
 # jenkins
 
+### Usefull links
+- [jenkins.io: Getting started with the Guided Tour](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
+
 ### LPI DevOps Tools Engineer - Objective V1
 
 <details><summary>Continuous Integration and Continuous Delivery</summary>
@@ -12,6 +15,7 @@ Candidates should understand the principles and components of a continuous integ
 Key Knowledge Areas:
 
 - Understand the concepts of Continuous Integration and Continuous Delivery
+  - [Youtube: Martin Fowler – Continuous Delivery - Thoughtworks](https://www.youtube.com/watch?v=aoMfbgF2D_4)
 - Understand the components of a CI/CD pipeline, including builds, unit, integration and acceptance tests, artifact management, delivery and deployment
 - Understand deployment best practices
 - Understand the architecture and features of Jenkins, including Jenkins Plugins, Jenkins API, notifications and distributed builds
@@ -42,6 +46,11 @@ The following is a partial list of the used files, terms and utilities:
 <p>
 
 - Describe the concepts of continuous integration, continuous delivery, and continuous deployment.
+  - [Youtube: Martin Fowler – Continuous Delivery - Thoughtworks](https://www.youtube.com/watch?v=aoMfbgF2D_4)
+  - [martinfowler.com: Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html) 
+  - [martinfowler.com: Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
+  - [martinfowler.com: Software Delivery Guide](https://martinfowler.com/delivery.html)
+  - [martinfowler.com: Deployment Pipeline](https://martinfowler.com/bliki/DeploymentPipeline.html)
 - Define how Jenkins interacts with Source Code Management (SCM) systems.
 - Describe the role of testing and how to implement effective testing.
 - Identify benefits of and how to contribute to the open source Jenkins Project.
@@ -53,6 +62,8 @@ The following is a partial list of the used files, terms and utilities:
 <p>
 
 - Install, set up, and upgrade Jenkins.
+  - [jenkins.io: Quick Install](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
+  - [Create a Lab with Docker-compose]()
 - Explore the “Manage Jenkins” screens.
 - Manage plugins.
 - Configure notifications.
