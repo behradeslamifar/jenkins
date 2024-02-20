@@ -2,6 +2,8 @@
 
 ### Usefull links
 - [jenkins.io: Getting started with the Guided Tour](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
+- [jenkins.io: Getting Started](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
+- [university.cloudbees.com: Training Path for CJE Certificate](https://university.cloudbees.com/series/certified-jenkins-engineer-cje-exam-preparation)
 
 ### LPI DevOps Tools Engineer - Objective V1
 
