@@ -1,7 +1,9 @@
 # Pipelines
 
 ## Pipeline Types
-- 
+- Declarative Pipeline 
+- Scripted Pipeline
+- Plain Groovy
 
 ### Declarative versus Scripted Pipeline
 Declarative and Scripted Pipelines are constructed fundamentally differently. Declarative Pipeline is a more recent feature of Jenkins Pipeline which:
