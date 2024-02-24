@@ -52,9 +52,59 @@ node {
 }
 ```
 
-## Resources
+### Resources
 - [jenkins.io: Pipeline](https://www.jenkins.io/doc/book/pipeline/)
 
+
+## Comments
+### Single line
+```
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                // single line comment
+            }
+        }
+    }
+}
+```
+
+### Block Comments
+```
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo "test block comment"
+                /*
+                Block comment usefull for disable big part of pipeline
+                or add long comment and description with multple lines
+                */
+            }
+        }
+    }
+}
+```
+
+### In Shell script
+```
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                sh '''
+                    ls -ld 
+                    # This is only for test
+                '''
+            }
+        }
+    }
+}
+```
 
 ## Resource
 - [jenkins.io: Getting started with Pipeline](https://www.jenkins.io/doc/book/pipeline/getting-started/)
