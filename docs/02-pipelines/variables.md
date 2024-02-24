@@ -3,12 +3,15 @@
 
 ```
 def var 
-def var = ''
+def var = '' // string
+def var = [] // list
 ```
 
 ## Variable Types
 - string
 - list
 
-## Resources
+## Environment Variables
+
+### Resources
 - [Blog Post: Jenkins Environment Variables](https://e.printstacktrace.blog/jenkins-pipeline-environment-variables-the-definitive-guide/)
