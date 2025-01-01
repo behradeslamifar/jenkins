@@ -27,6 +27,7 @@ Key Knowledge Areas:
 - Awareness of possible authentication and authorization models
 - Understanding of the Pipeline Plugin
 - Understand the features of important Jenkins modules such as Copy Artifact Plugin, Fingerprint Plugin, Docker Pipeline, Docker Build and Publish plugin, Git Plugin, Credentials Plugin
+  - [Credentials Binding Plugin](https://www.jenkins.io/doc/pipeline/steps/credentials-binding/)
 - Awareness of Artifactory and Nexus
 
 The following is a partial list of the used files, terms and utilities:
